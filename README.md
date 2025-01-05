@@ -1,5 +1,5 @@
 # Trade Portfolio
-![Trade Portfolio](URL_of_the_image)
+![Trade Portfolio](https://github.com/Manu04Tiwari/Trade-Portfolio/blob/main/github%20front.png)
 ## Overview
 This repository is for managing and tracking a trade portfolio. It includes features for monitoring trades, analyzing performance, and generating reports.
 
