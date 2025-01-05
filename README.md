@@ -20,10 +20,14 @@ This repository is for managing and tracking a trade portfolio. It includes feat
 ## Usage
 1. Start the application:
    ```bash
-   npm start
+   npm run start
+   ```
+2. Build the Backend:
+   ```bash
+   mvn clean install
    ```
 
-2. Open your browser and go to `http://localhost:3000` to access the application.
+3. Open your browser and go to `http://localhost:3000` to access the application.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
