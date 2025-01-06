@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     NextJS -->|Handles CRUD operations (Create, Read, Update, Delete)| Supabase[(Supabase (PostgreSQL))]
     Supabase -->|Manages stock data (Add, Edit, Delete)| NextJS
