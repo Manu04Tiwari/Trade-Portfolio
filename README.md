@@ -52,7 +52,7 @@ This repository is for managing and tracking a trade portfolio. It includes feat
 - Run the following command to build the project:
   ```bash
   mvn clean install
-
+![Build Success](https://github.com/Manu04Tiwari/Trade-Portfolio/blob/main/nice.png)
 
 3. Open your browser and go to `http://localhost:3000` to access the application.
 
