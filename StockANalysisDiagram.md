@@ -1,6 +1,9 @@
 graph TD
-    NextJS -->|Handles CRUD operations (Create, Read, Update, Delete)| Supabase[(Supabase (PostgreSQL))]
-    Supabase -->|Manages stock data (Add, Edit, Delete)| NextJS
-    Supabase -->|Performs calculations on user-added stocks using real-time data| FinnHubAPI[(FinnHub API)]
-    FinnHubAPI -->|Provides real-time stock data for analysis| Supabase
-    NextJS -->|Displays processed stock data for user analysis| FinnHubAPI
+    NodeJS -->|CRUD Operations: Create, Read, Update, Delete| Database[(MySQL Database)]
+    Database -->|Stores stock data: Add, Edit, Delete, Retrieve| NodeJS
+    Database -->|Processes user-added stocks with real-time calculations| AlphaVantage[(Alpha Vantage API)]
+    AlphaVantage -->|Delivers real-time stock data :prices, trends, metrics| Database
+    NodeJS -->|Presents processed stock insights for user analysis| AlphaVantage
+    User -->|Interacts with the platform| NodeJS
+    NodeJS -->|Authenticates user access| AuthService[(Authentication Service)]
+
