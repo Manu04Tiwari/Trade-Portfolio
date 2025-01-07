@@ -3,6 +3,7 @@
 ## Overview
 This repository is for managing and tracking a trade portfolio. It includes features for monitoring trades, analyzing performance, and generating reports.
 
+-![Trade Portfolio](https://github.com/Manu04Tiwari/Trade-Portfolio/blob/main/StockAnalysisDiagram.png)
 ## Installation
 1. Clone the repository:
    ```bash
